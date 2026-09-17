@@ -1,1 +1,0 @@
-ضع صور أعمالك هنا. بعد ذلك أضف مسار الصورة في data.js. مثال: assets/works/drawing1.jpg
