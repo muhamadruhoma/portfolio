@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Muhamad Ruhoma — freelance artist, designer, editor and game creator.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Muhamad Ruhoma — Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot"></div><div class="cursor-ring"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">MUHAMAD<span>RUHOMA</span></a>
+    <nav class="desktop-nav">
+      <a href="#work" data-t="navWork">Work</a>
+      <a href="#services" data-t="navServices">Services</a>
+      <a href="#about" data-t="navAbout">About</a>
+      <a href="#contact" data-t="navContact">Contact</a>
+    </nav>
+    <div class="controls">
+      <button id="lang" class="control" type="button">AR</button>
+      <button id="theme" class="control" type="button" aria-label="Toggle theme">☼</button>
+      <button id="menu" class="menu-btn" type="button" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div id="mobileNav" class="mobile-nav">
+    <a href="#work" data-t="navWork">Work</a><a href="#services" data-t="navServices">Services</a>
+    <a href="#about" data-t="navAbout">About</a><a href="#contact" data-t="navContact">Contact</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="section-no">00 — <span data-t="heroLabel">FREELANCE CREATIVE</span></div>
+      <div class="hero-copy">
+        <h1>MUHAMAD<br><i>RUHOMA</i></h1>
+        <p data-t="heroText">Art, design, video and game creation — made to feel like something.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#work" data-t="seeWork">SEE MY WORK</a>
+          <a class="text-link" href="#contact" data-t="contactLink">Get in touch ↗</a>
+        </div>
+      </div>
+      <div class="scroll-mark">SCROLL ↓</div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-title"><span>01 — <span data-t="workLabel">WORK</span></span><h2 data-t="workTitle">Selected work</h2></div>
+      <div id="filters" class="filters"></div>
+      <div id="works" class="work-grid"></div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-title"><span>02 — <span data-t="servicesLabel">SERVICES</span></span><h2 data-t="servicesTitle">Things I can build</h2></div>
+      <div id="servicesGrid" class="service-list"></div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-title"><span>03 — <span data-t="aboutLabel">ABOUT</span></span><h2 data-t="aboutTitle">More than one discipline.</h2></div>
+      <div class="about-grid">
+        <div class="about-big">CREATE.<br><span>EDIT.</span><br>BUILD.</div>
+        <div class="about-text">
+          <p data-t="aboutText">I'm Muhamad Ruhoma, a freelancer working across illustration, graphic design, video editing and game creation. I like turning ideas into finished visual work.</p>
+          <div class="stats"><div><b>04+</b><small data-t="statFields">Creative fields</small></div><div><b>∞</b><small data-t="statIdeas">Ideas to explore</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="project-cta">
+      <div class="section-no">04 — <span data-t="contactLabel">CONTACT</span></div>
+      <h2 data-t="ctaTitle">Have a project<br><i>in mind?</i></h2>
+      <p data-t="ctaText">Tell me what you're building and let's turn the idea into something real.</p>
+      <a id="whatsapp" class="cta-link" href="#" target="_blank" rel="noopener">WHATSAPP ↗</a>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Muhamad Ruhoma</span><span data-t="footer">Freelance creative · Egypt</span></footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <button id="close" class="modal-close" aria-label="Close">×</button>
+    <div id="modalBody" class="modal-body"></div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
