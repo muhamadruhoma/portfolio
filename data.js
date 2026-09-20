@@ -1,9 +1,11 @@
 
 const works = [
+  {category:"Social Media",title:{en:"Social media post",ar:"بوست سوشيال ميديا"},description:{en:"Social media post for Nasa Space Apps Challenge.",ar:"بوست سوشيال ميديا لمبادرة في ناسا"},image:"assets/works/ads/nasa.jpg"},
+  {category:"Social Media",title:{en:"Social media post",ar:"بوست سوشيال ميديا"},description:{en:"Social media post for Nasa Space Apps Challenge.",ar:"بوست سوشيال ميديا لمبادرة في ناسا"},image:"assets/works/ads/nasa2.jpg"},
+  {category:"Social Media",title:{en:"Social media post",ar:"بوست سوشيال ميديا"},description:{en:"Social media post for Nasa Space Apps Challenge.",ar:"بوست سوشيال ميديا لمبادرة في ناسا"},image:"assets/works/ads/nasa3.jpg"},
   {category:"Ads",title:{en:"Advertisement",ar:"إعلان"},description:{en:"Non-official ad for Emad Afandy Coffee.",ar:"إعلان غير رسمي ل قهوة عماد أفندي"},image:"assets/works/ads/emadafandy.png"},
   {category:"Ads",title:{en:"Advertisement",ar:"إعلان"},description:{en:"Non-official ad for Spero Spathis apple.",ar:"إعلان غير رسمي لسبيرو سباتس بالتفاح"},image:"assets/works/ads/speroapple.png"},
   {category:"Ads",title:{en:"Advertisement",ar:"إعلان"},description:{en:"Non-official ad for Spero Spathis Cherry.",ar:"إعلان غير رسمي لسبيرو سباتس بالتوت"},image:"assets/works/ads/sperocherry.png"},
-  {category:"Social Media",title:{en:"Social media post",ar:"بوست سوشيال ميديا"},description:{en:"Social media post for Nasa Space Apps Challenge.",ar:"بوست سوشيال ميديا لمبادرة في ناسا"},image:"assets/works/ads/nasa.jpg"},
   {category:"Social Media",title:{en:"Social media post",ar:"بوست سوشيال ميديا"},description:{en:"Social media post for Neurology Dr.",ar:"بوست سوشيال ميديا لدتور مخ وأعصاب"},image:"assets/works/ads/doctor.jpg"},
   {category:"Ads",title:{en:"Advertisement",ar:"إعلان"},description:{en:"Non-official ad for Dairy Milk.",ar:"إعلان غير رسمي لديري ميلك"},image:"assets/works/ads/dairymilk.png"},
   {category:"Ads",title:{en:"Advertisement",ar:"إعلان"},description:{en:"Non-official ad for Spuds.",ar:"إعلان غير رسمي لسبدز"},image:"assets/works/ads/spuds.png"},
